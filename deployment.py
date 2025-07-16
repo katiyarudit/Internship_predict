@@ -11,7 +11,7 @@ st.markdown("<h4 style='text-align: center;'>📊 Predict placement chances base
 st.markdown("---")
 
 # ------------------- LOAD MODEL -------------------
-with open('best_placement_model.pkl', 'rb') as file:
+with open('model saved.pkl', 'rb') as file:
     model_data = pickle.load(file)
 
 model = model_data['model']
